@@ -10,13 +10,18 @@ In the project directory, you can run:
 
 ###  Required params: 
 
-Attempt | type 
+Param | type 
 --- | --- 
 src | String 
-width | Number 
-imageKey | String
-salt | String
-hostImage | string  
+width | Number
+
+###  Required env variable: 
+
+Variable | type 
+--- | --- 
+NEXT_PUBLIC_IMAGE_PROXY_SALT | String 
+NEXT_PUBLIC_IMAGE_PROXY_KEY | String
+NEXT_PUBLIC_HOST_IMAGE_PROXY | String
 
 
 ### Code Example
