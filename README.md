@@ -27,19 +27,17 @@ NEXT_PUBLIC_HOST_IMAGE_PROXY | String
 ### Code Example
 
 ```bash
+  import Image from "next/image"
   import { loaderImage } from 'next-js-image-loader'
 
   function renderImage () {
     return (
-      <>
-        <Image 
+      <>       
+        <Image
           loader={loaderImage}
           src="https://storage.googleapis.com/cms-general-assets/logo/cms-media-idn-times.png"
           width={100}
-          height={100}
-          imageKey="sadjlkasjkdjalksjdk"
-          salt="asdkjklsajdklajskl"
-          hostImage="https://imgproxy.arcana.my.id"
+          height={100} //optional props          
         />
       </>      
     )
