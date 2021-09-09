@@ -1,7 +1,6 @@
 {
   "main": "src/lib/ImageLoader.cjs",
-  "module": "dist/ImageLoader.js",
-  "type": "module",
+  "module": "dist/ImageLoader.js",  
   "files": [
     "dist",
     "README.md"
