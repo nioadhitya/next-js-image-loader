@@ -3,7 +3,7 @@
  * @params width {string} width of image
  * @return {string} url full for image
  **/
- export function loaderImage({ src, width }) {
+function loaderImage({ src, width }) {
   const createHmac = require("create-hmac");
   const urlSafeBase64 = (string) => {
     return Buffer.from(string)
@@ -35,3 +35,5 @@
 
   return `${process.env.NEXT_PUBLIC_HOST_IMAGE_PROXY}/${signature}${path}`
 }
+
+export default loaderImage;

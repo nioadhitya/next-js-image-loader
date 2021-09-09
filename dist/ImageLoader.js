@@ -3,7 +3,7 @@
  * @params width {string} width of image
  * @return {string} url full for image
  **/
-export function loaderImage({
+function loaderImage({
   src,
   width
 }) {
@@ -30,3 +30,5 @@ export function loaderImage({
   const signature = sign(process.env.NEXT_PUBLIC_IMAGE_PROXY_SALT, path, process.env.NEXT_PUBLIC_IMAGE_PROXY_KEY);
   return `${process.env.NEXT_PUBLIC_HOST_IMAGE_PROXY}/${signature}${path}`;
 }
+
+export default loaderImage;
