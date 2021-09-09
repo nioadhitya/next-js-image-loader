@@ -1,6 +1,7 @@
 {
   "main": "dist/ImageLoader.js",
   "module": "dist/ImageLoader.js",
+  "type": "module",
   "files": [
     "dist",
     "README.md"
@@ -10,7 +11,7 @@
     "url": "URL_OF_YOUR_REPOSITORY"
   },
   "name": "next-js-image-loader",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
