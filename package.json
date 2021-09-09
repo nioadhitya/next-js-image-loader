@@ -1,5 +1,5 @@
 {
-  "main": "src/lib/ImageLoader.cjs",
+  "main": "dist/ImageLoader.js",
   "module": "dist/ImageLoader.js",  
   "files": [
     "dist",
@@ -10,7 +10,7 @@
     "url": "URL_OF_YOUR_REPOSITORY"
   },
   "name": "next-js-image-loader",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
